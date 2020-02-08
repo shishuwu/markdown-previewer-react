@@ -1,6 +1,7 @@
 import React from 'react';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
-import 'bootstrap';
 import marked from 'marked';
 
 class Markdown extends React.Component {
