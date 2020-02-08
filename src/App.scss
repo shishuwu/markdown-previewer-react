@@ -1,0 +1,40 @@
+@mixin pageLayout {
+  padding: 20px;
+  width: 100%;
+  height: 525px;
+  margin: 25px 0;
+  background-color: rgba(236, 240, 241, 0.3);
+  border: none;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+body {
+  background-color: #27ae60;
+  color: #fff;
+  font: {
+    family: "Lato", sans-serif;
+    size: 18px;
+  }
+}
+
+* { outline: none; }
+
+h1 {
+  font: {
+    size: 300%;
+    weight: 700;
+  }
+  margin: 15px 0;
+}
+
+h2 { font-size: 225%; }
+
+.markdown-input {
+  @include pageLayout;
+  font-family: "Share Tech Mono";
+}
+
+.markdown-preview {
+  @include pageLayout;
+  overflow: auto; 
+}
