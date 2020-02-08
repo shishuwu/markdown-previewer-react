@@ -33,12 +33,12 @@ h2 {
   font-size: 100%;
 }
 
-.markdown-input {
+.md-input {
   @include cardLayout;
   font-family: "Share Tech Mono";
 }
 
-.markdown-preview {
+.md-preview {
   @include cardLayout;
   overflow: auto;
 }
