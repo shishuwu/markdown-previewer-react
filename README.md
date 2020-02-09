@@ -1,6 +1,14 @@
 # Markdown previewer w/ react
 - freecodecamp - project 2
 
+## Tips
+- import bootstrap
+
+    `import 'bootstrap/dist/css/bootstrap.min.css';`
+- import method, need to specify method:
+
+    `import marked from 'marked';`
+
 ------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
